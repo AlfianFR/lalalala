@@ -41,18 +41,18 @@
                     </p>
                 </a>
             </li>
-            <li class="nav-item">
+            {{-- <li class="nav-item">
                 <a href="{{ url('/admin') }}" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
-                    <p>Home</p>
+                    <p></p>
                 </a>
 
-            <li class="nav-item">
-                <a href="{{ url('/admin/genre') }}" class="nav-link">
+            <li class="nav-item"> --}}
+                {{-- <a href="{{ url('/admin/genre') }}" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Genre Film</p>
                 </a>
-            </li>
+            </li> --}}
             <li class="nav-item">
                 <a href="{{ url('/admin/tahun_rilis') }}" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
